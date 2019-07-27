@@ -172,12 +172,21 @@
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
+
 .about-section p {
   margin-bottom: 5rem;
 }
 
+
 .projects-section {
-  padding: 10rem 0;
+  padding-top: 3rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 }
 
 .projects-section .featured-text {
@@ -208,7 +217,7 @@
 }
 
 .signup-section {
-  padding: 17rem 0;
+  padding: 3rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../images/ivy.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../images/ivy.jpg");
   background-position: center;
@@ -216,6 +225,13 @@
   background-attachment: scroll;
   background-size: cover;
 }
+
+@media (min-width: 992px) {
+  .signup-section {
+    padding: 17rem 0;
+  }
+}
+
 
 .signup-section .form-inline input {
   -webkit-box-shadow: 1rem 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -230,7 +246,7 @@
 }
 
 .services-section {
-  padding: 20rem 0;
+  padding: 3rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../images/green_building.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../images/green_building.jpg");
   background-position: center;
@@ -238,6 +254,15 @@
   background-attachment: scroll;
   background-size: cover;
 }
+
+
+@media (min-width: 992px) {
+  .services-section {
+    padding: 15rem 0;
+    margin-bottom: 5rem;
+  }
+}
+
 
 .services-section {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -248,16 +273,24 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-  margin-bottom:5rem;
+  margin-bottom:3rem;
 }
 
+
+
 .service-panel{
-  font-size:1rem;
+  font-size:0.7rem;
   color:white;
   font-weight:bold;
   padding:1rem 0 1rem 0;
   background-color:#161616;
   margin-bottom:1rem;
+}
+
+@media(min-width:1024px){
+  .service-panel{
+    font-size:1rem;
+  }
 }
 
 
@@ -355,4 +388,15 @@ footer {
   background-color:#161616 !important;
   color:white;
 
+}
+
+
+.heading-custom{
+  font-size:2rem !important;
+}
+
+@media(min-width:992px){
+  .heading-custom{
+    font-size:8rem !important;
+  }
 }
