@@ -106,7 +106,7 @@
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../../images/building_green_wall.jpg");
 }
 
-.masthead h1 {
+.masthead h1, .measures-header-bg h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -116,7 +116,7 @@
   -webkit-background-clip: text;
 }
 
-.masthead h2 {
+.masthead h2, .measures-header-bg h1 {
   max-width: 20rem;
   font-size: 1rem;
 }
